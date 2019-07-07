@@ -1,0 +1,26 @@
+{
+  "name": "wxpay",
+  "version": "1.0.0",
+  "description": "A node library for WeChat Pay",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wxpay",
+    "pay",
+    "wechat",
+    "weixin",
+    "微信支付",
+    "微信",
+    "支付"
+  ],
+  "author": "Ryan Wang (https://github.com/wongyouth)",
+  "repository": "wongyouth/wxpay",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "flyio": "^0.6.14",
+    "lodash": "^4.17.11"
+  }
+}
