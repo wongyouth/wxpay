@@ -1,9 +1,9 @@
 # wxpay 
 
 [![node version](https://img.shields.io/node/v/@wongyouth/wxpay.svg?style=flat-square)](https://www.npmjs.com/package/@wongyouth/wxpay)
-[![npm version](https://img.shields.io/npm/v/@wongyouth/wxpay/g.svg?style=flat-square)](https://www.npmjs.com/package/@wongyouth/wxpay)
-[![license](https://img.shields.io/npm/l/@wongyouth/wxpay/g.svg?style=flat-square)](https://www.npmjs.com/package/@wongyouth/wxpay)
-[![downloads](https://img.shields.io/npm/dt/@wongyouth/wxpay/g.svg?style=flat-square)](https://www.npmjs.com/package/wongyouth/wxpay)
+[![npm version](https://img.shields.io/npm/v/@wongyouth/wxpay.svg?style=flat-square)](https://www.npmjs.com/package/@wongyouth/wxpay)
+[![license](https://img.shields.io/npm/l/@wongyouth/wxpay.svg?style=flat-square)](https://www.npmjs.com/package/@wongyouth/wxpay)
+[![downloads](https://img.shields.io/npm/dt/@wongyouth/wxpay.svg?style=flat-square)](https://www.npmjs.com/package/wongyouth/wxpay)
 [![build status](https://img.shields.io/travis/wongyouth/wxpay.svg?style=flat-square)](https://travis-ci.org/wongyouth/wxpay)
 
 
