@@ -6,6 +6,7 @@ const genTimeStamp = () => (Date.now() / 1000) | 0
 
 const genNonceStr = () => crypto.randomBytes(16).toString('hex')
 
+// eslint-disable-next-line no-unused-vars
 const trace = msg => {
   console.log('\n====> \ttrace:', msg)
   return msg

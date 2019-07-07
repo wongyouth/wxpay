@@ -17,8 +17,8 @@ fly.config.baseURL =
 fly.config.headers = { 'Content-Type': 'text/plain' }
 
 async function unifiedOrder({
-  appid = APP_ID,
-  mch_id = MCH_ID,
+  appid,
+  mch_id,
   sub_appid,
   sub_mch_id,
   device_info,
@@ -44,7 +44,6 @@ async function unifiedOrder({
 } = {}) {
   const params = _.pickBy(
     {
-      notify_url,
       appid,
       mch_id,
       sub_appid,
@@ -81,7 +80,7 @@ async function unifiedOrder({
   debug('res', res.response.body)
   const result = parseXML(res.response.body)
   const data = {
-    appId: APP_ID,
+    appId: appid,
     timeStamp: String(genTimeStamp()),
     nonceStr: result.nonce_str,
     package: `prepay_id=${result.prepay_id}`,
