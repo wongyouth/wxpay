@@ -98,6 +98,9 @@ function isValidSign(body, api_key) {
 }
 
 module.exports = {
+  parseXML,
+  toXML,
+  genSign,
   unifiedOrder,
   isValidSign
 }
