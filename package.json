@@ -16,7 +16,10 @@
     "支付"
   ],
   "author": "Ryan Wang (https://github.com/wongyouth)",
-  "repository": "wongyouth/wxpay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongyouth/wxpay.git"
+  },
   "license": "MIT",
   "dependencies": {
     "debug": "^4.1.1",
@@ -27,5 +30,15 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^6.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/wongyouth/wxpay/issues"
+  },
+  "homepage": "https://github.com/wongyouth/wxpay#readme",
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
