@@ -2,11 +2,8 @@ language: node_js
 node_js:
   - '8'
   - '10'
-  - '11'
   - '12'
 cache: npm
-install:
-  - npm install
 
 jobs:
   include:
@@ -14,6 +11,7 @@ jobs:
       script:
         - npm test
     - stage: npm release
+      node_js: '10'
       deploy:
         provider: npm
         email: 'wongyouth@gmail.com'

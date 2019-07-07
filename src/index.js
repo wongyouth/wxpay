@@ -32,7 +32,7 @@ async function unifiedOrder({
   time_start,
   time_expire,
   goods_tag,
-  notify_url = NOTIFY_URL,
+  notify_url,
   trade_type = 'JSAPI',
   limit_pay,
   out_trade_no,
