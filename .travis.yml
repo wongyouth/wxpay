@@ -4,7 +4,24 @@ node_js:
   - '10'
   - '11'
   - '12'
+cache: npm
 install:
   - npm install
-script:
-  - npm test
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm test
+    - stage: npm release
+      deploy:
+        provider: npm
+        email: 'wongyouth@gmail.com'
+        api_key: '$NPM_TOKEN'
+        on:
+          tags: true
+
+branches:
+  only:
+    - master
+    - /^v[0-9]+.*$/
