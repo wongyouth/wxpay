@@ -34,7 +34,7 @@ const toJS = xml => convert.xml2js(xml, { compact: true })
 const format = _.pipe([
   toJS,
   x => x.xml, // remove xml tag
-  _.mapValues(x => x._cdata) // remove _cdata tag
+  _.mapValues(x => (x._cdata ? x._cdata : x._text)) // remove _cdata tag
 ])
 
 function parseXML(xml) {

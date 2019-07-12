@@ -50,7 +50,7 @@ describe('util', function() {
   })
 
   describe('parseXML', () => {
-    it('conver to js', () => {
+    it('convert to js', () => {
       const xml = `
         <xml>
           <trade_type><![CDATA[NATIVE]]></trade_type>
@@ -65,6 +65,7 @@ describe('util', function() {
           <device_info><![CDATA[sandbox]]></device_info>
           <code_url><![CDATA[weixin://wxpay/s/An4baqw]]></code_url>
           <result_code><![CDATA[SUCCESS]]></result_code>
+          <total_fee>1</total_fee>
           <err_code><![CDATA[SUCCESS]]></err_code>
         </xml>
       `
@@ -80,6 +81,7 @@ describe('util', function() {
         return_msg: 'OK',
         appid: 'wx1650e054787ce3d7',
         device_info: 'sandbox',
+        total_fee: 1,
         code_url: 'weixin://wxpay/s/An4baqw',
         result_code: 'SUCCESS',
         err_code: 'SUCCESS'
