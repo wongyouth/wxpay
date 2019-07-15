@@ -24,7 +24,7 @@
   "dependencies": {
     "debug": "^4.1.1",
     "flyio": "^0.6.14",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "xml-js": "^1.6.11"
   },
   "devDependencies": {
