@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "^6.0.1",
     "expect.js": "^0.3.1",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "bugs": {
     "url": "https://github.com/wongyouth/wxpay/issues"
